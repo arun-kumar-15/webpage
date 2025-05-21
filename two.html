@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Nextaura Tech</title>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800&display=swap" rel="stylesheet">
+
+  <style>
+    :root {
+      --primary: #00b4d8;
+      --secondary: #0077b6;
+      --accent: #00c853;
+      --bg: #f0f8ff;
+    }
+
+    body {
+      margin: 0;
+      font-family: 'Poppins', sans-serif;
+      background: var(--bg);
+      color: #333;
+      line-height: 1.6;
+    }
+
+    header {
+      background: linear-gradient(to right, var(--secondary), var(--primary));
+      color: white;
+      text-align: center;
+      padding: 3rem 1rem;
+    }
+
+    header h1 {
+      font-size: 3rem;
+      font-weight: 800;
+      margin: 0;
+    }
+
+    header p {
+      font-size: 1.2rem;
+      margin-top: 0.5rem;
+    }
+
+    section {
+      padding: 2rem;
+      animation: fadeIn 0.8s ease-in-out;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    .card {
+      background: white;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+      border-radius: 12px;
+      padding: 1.5rem;
+      margin-bottom: 2rem;
+      transition: transform 0.3s;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+    }
+
+    .button {
+      display: inline-block;
+      padding: 0.7rem 1.4rem;
+      background-color: var(--accent);
+      color: white;
+      font-weight: 600;
+      text-decoration: none;
+      border-radius: 5px;
+      margin-top: 1rem;
+      transition: background 0.3s;
+    }
+
+    .button:hover {
+      background-color: #009d43;
+    }
+
+    ul {
+      padding-left: 1.2rem;
+    }
+
+    .social-icons {
+      text-align: center;
+    }
+
+    .social-icons a {
+      margin: 0 0.5rem;
+      font-size: 1.8rem;
+      color: var(--primary);
+      transition: transform 0.3s;
+    }
+
+    .social-icons a:hover {
+      transform: scale(1.2);
+    }
+
+    .testimonial {
+      font-style: italic;
+      background-color: #e0f7fa;
+      border-left: 4px solid var(--primary);
+      padding: 1rem;
+      border-radius: 8px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 2rem 1rem;
+      background-color: #f8f8f8;
+      font-size: 0.9rem;
+      margin-top: 2rem;
+    }
+
+    .newsletter input[type="email"] {
+      padding: 0.5rem;
+      width: 60%;
+      max-width: 300px;
+      margin-right: 10px;
+      border-radius: 5px;
+      border: 1px solid #ccc;
+    }
+
+    .newsletter button {
+      padding: 0.6rem 1rem;
+      background: var(--secondary);
+      color: white;
+      border: none;
+      border-radius: 5px;
+      font-weight: 600;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Nextaura Tech</h1>
+    <p>Where Innovation Meets Integration</p>
+  </header>
+
+  <section>
+    <div class="card">
+    <h2>🆕 Latest Updates</h2>
+    <ul>
+      <li><strong>May 2025:</strong> Launched advanced chatbot training tools</li>
+      <li><strong>Apr 2025:</strong> Partnered with XYZ Corp for cloud deployments</li>
+      <li><strong>Mar 2025:</strong> Improved API response speed by 35%</li>
+    </ul>
+  </div>
+
+  <div class="card">
+    <h2>📞 WhatsApp API Integration</h2>
+    <p>Boost customer engagement using our seamless WhatsApp API. Send real-time messages, automate workflows, and scale your support system effortlessly.</p>
+    <a href="https://wa.me/919876543210?text=Hello%20Nextaura%20Tech" target="_blank" class="button">Chat on WhatsApp</a>
+  </div>
+
+   <div class="card">
+  <h2>🧩 Key Features</h2>
+  <ul>
+    <li>Real-time notifications & alerts</li>
+    <li>Custom chatbot workflows</li>
+    <li>CRM & ERP integration</li>
+    <li>Multi-agent dashboard</li>
+    <li>Voice Quotation System for instant audio quotes</li>
+  </ul>
+</div>
+
+    <div class="card">
+      <h2>🚀 Our Products</h2>
+      <ul>
+        <li>AI Chatbots</li>
+        <li>Analytics Dashboards</li>
+        <li>CRM Solutions</li>
+        <li>Project Management Tools</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <h2>🔧 Our Services</h2>
+      <ul>
+        <li>Custom Web & App Development</li>
+        <li>Cloud & DevOps Consulting</li>
+        <li>API Integrations</li>
+        <li>Security & Compliance</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <h2>📝 From the Blog</h2>
+      <ul>
+        <li><strong>Cloud Trends:</strong> What to Expect in 2025</li>
+        <li><strong>Smart Bots:</strong> Transforming Customer Support</li>
+        <li><strong>Agile Development:</strong> Delivering Fast & Often</li>
+      </ul>
+    </div>
+
+    <div class="card testimonial">
+      <p>“Nextaura helped us integrate WhatsApp and automate our customer support — we saw a 40% improvement in response time!”<br><br>– Happy Client, Co-founder of BizGrow</p>
+    </div>
+
+    <div class="card newsletter">
+      <h2>📬 Join Our Newsletter</h2>
+      <p>Stay updated with the latest tech trends and updates from Nextaura.</p>
+      <form action="#">
+        <input type="email" placeholder="Your Email" required />
+        <button type="submit">Subscribe</button>
+      </form>
+    </div>
+  </section>
+
+  <section class="social-icons">
+    <h2>Connect with Us</h2>
+    <a href="https://www.instagram.com/" target="_blank">📸</a>
+    <a href="https://www.facebook.com/" target="_blank">📘</a>
+    <a href="https://wa.me/919876543210" target="_blank">💬</a>
+  </section>
+
+  <footer>
+    &copy; 2025 Nextaura Tech. All rights reserved.
+  </footer>
+
+</body>
+</html>
